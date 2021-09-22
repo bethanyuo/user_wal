@@ -1,0 +1,23 @@
+{
+  "name": "user_wal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "account.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bethanyuo/user_wal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bethanyuo/user_wal/issues"
+  },
+  "homepage": "https://github.com/bethanyuo/user_wal#readme",
+  "dependencies": {
+    "api": "^3.4.0"
+  }
+}
