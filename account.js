@@ -8,7 +8,19 @@ sdk.auth(process.env.SECRET_KEY);
 sdk.CreateAccount({
   profileFields: [
     {value: 'Sam Frank', fieldId: 'individualLegalName'},
-    {fieldId: 'individualEmail', value: 'sam@gmail.com'}
+    {fieldId: 'individualEmail', value: 'sam@gmail.com'},
+    {fieldId: 'individualCellphoneNumber', value: '+16781229999'},
+    {
+      fieldId: 'individualResidenceAddress',
+      value: {
+      street1: '1 Market St',
+      street2: 'Suite 402',
+      city: 'San Francisco',
+      state: 'CA',
+      postalCode: '94105',
+      country: 'US'
+      }
+    }
   ],
   subaccount: true,
   type: 'INDIVIDUAL',
